@@ -1,0 +1,57 @@
+.nav{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(222, 228, 200); 
+    animation-name: changeBgColor;
+    animation-duration: 5s;
+}
+.nav h1{
+    color: blueviolet;
+    margin: 0;
+    font-size: 40px;
+}
+.nav ul{
+    display:inline-flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav li{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.nav li a{
+    text-decoration: none;
+    color:blueviolet;
+}
+.nav .nav-search input{
+    flex: 1;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    height: 35px;
+    border-right: 0px;
+    width: 390px;
+}
+.nav .nav-search button{
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    height: 39px;
+    border-left: 0px;
+}
+element.style{
+    margin-top: 5px;
+    flex:1;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+@keyframes changeBgColor {
+    0% {
+      background-color: rgb(222, 228, 200); 
+    }
+    100% {
+      background-color: rgb(240, 216, 237); 
+    }
+  }
+  
